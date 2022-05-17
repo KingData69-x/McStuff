@@ -11,7 +11,7 @@ public class SuicideCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-        //die - kills player
+        //suicide - kills player
 
         if (sender instanceof Player){
             Player player = (Player) sender;
