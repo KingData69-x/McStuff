@@ -20,7 +20,7 @@ public class CustomConfigFile {
             try{
                 file.createNewFile();
             }catch (IOException e){
-                //black people
+                //uh
             }
 
         }

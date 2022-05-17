@@ -1,0 +1,11 @@
+//This config has many messages and other stuff that can be edited
+//DO NOT TOUCH ANYTHING UNLESS YOU KNOW WHAT YOUR DOING!!
+
+// Change the message for the /discord command
+
+discord_message: 'Our discord is: (Your Discord Link)'
+
+//Change the join message for a player when they join the game
+//you can use color code with this message make sure to use "§" instead of "&"
+
+join_message: '§dWelcome to the server'
