@@ -12,10 +12,10 @@ commands:
   discord:
     description: Sends Discord message link
     usage: /<commands>
-  meowmeow:
+  mcgc:
     description: Gives player with permissions Creative.
     usage: /<command>
-  meow:
+  mcgs:
     description: Gives player with permissions Survival.
     usage: /<command>
   farmtime:
