@@ -19,8 +19,8 @@ public final class McStuff extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
         getCommand("discord").setExecutor(new DiscordCommand());
         getCommand("suicide").setExecutor(new SuicideCommand());
-        getCommand("meowmeow").setExecutor(new MeowmeowCommand());
-        getCommand("meow").setExecutor(new MeowCommand());
+        getCommand("mcgc").setExecutor(new McgcCommand());
+        getCommand("mcgs").setExecutor(new McgsCommand());
         getCommand("farmtime").setExecutor(new FarmtimeCommand());
         getCommand("mcreload").setExecutor(new ReloadCommand());
         getCommand("mctp").setExecutor(new TeleportCommand());
