@@ -35,6 +35,7 @@ public final class McStuff extends JavaPlugin implements Listener {
         getConfig().options().copyDefaults();
         saveDefaultConfig();
         CustomConfigFile.setup();
+        CustomConfigFile.get().addDefault("reminder", "Remember to get rid of the speech marks '' for the other options below");
         CustomConfigFile.get().addDefault("discord_message", "Our discord is: (Your Discord Link)");
         CustomConfigFile.get().addDefault("join_message", ChatColor.LIGHT_PURPLE + "Welcome to the server!");
         CustomConfigFile.get().options().copyDefaults(true);

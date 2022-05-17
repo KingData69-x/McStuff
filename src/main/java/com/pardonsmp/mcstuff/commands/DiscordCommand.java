@@ -14,7 +14,7 @@ public class DiscordCommand implements CommandExecutor {
 
         if (sender instanceof Player){
             Player p = (Player) sender;
-            p.sendMessage(CustomConfigFile.get().getString(ChatColor.GOLD + "discord_message"));
+            p.sendMessage(CustomConfigFile.get().getString("discord_message"));
         }
 
         return true;

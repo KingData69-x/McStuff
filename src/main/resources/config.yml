@@ -3,9 +3,9 @@
 
 # Change the message for the /discord command
 
-discord_message: 'Our discord is: (Your Discord Link)'
+discord_message: Our discord is: (Your Discord Link)
 
 # Change the join message for a player when they join the game
 # you can use color code with this message make sure to use "Â§" the Â will make the color work because minecraft doesnt understand inside of config files what the S is.
 
-join_message: 'Â§dWelcome to the server'
+join_message: Â§dWelcome to the server
