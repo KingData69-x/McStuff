@@ -28,7 +28,7 @@ public final class McStuff extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(new JoinLeaveListener(), this);
         getServer().getPluginManager().registerEvents(new NewPlayerJoinMessage(), this);
 
-        //end of startup
+        //end of startup logic
 
 
         //setup Config Files

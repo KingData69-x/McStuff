@@ -14,7 +14,7 @@ public class McgsCommand implements CommandExecutor {
             Player player = (Player) sender;
 
             // /meow Gives player Survival
-            if (player.hasPermission("McStuff.meow")) {
+            if (player.hasPermission("McStuff.mcgs")) {
                 player.setGameMode(GameMode.SURVIVAL);
                 player.sendMessage(ChatColor.GREEN + "" + ChatColor.BOLD + "You are now in Survival!");
             }else{

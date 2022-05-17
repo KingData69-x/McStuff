@@ -15,7 +15,7 @@ public class McgcCommand implements CommandExecutor {
                 Player player = (Player) sender;
 
                 // /meowmeow Gives player creative
-                if (player.hasPermission("McStuff.meowmeow")) {
+                if (player.hasPermission("McStuff.mcgc")) {
                     player.setGameMode(GameMode.CREATIVE);
                     player.sendMessage(ChatColor.GREEN + "" + ChatColor.BOLD + "You are now in creative!");
                 }else{
