@@ -1,0 +1,32 @@
+name: McStuff
+version: '${project.version}'
+main: com.pardonsmp.mcstuff.McStuff
+api-version: 1.18
+authors: [ Rymed ]
+description: This is just a plugin that has stuff!
+website: http://pardonsmp.com
+commands:
+  suicide:
+    description: Commits Suicide
+    usage: /<command>
+  discord:
+    description: Sends Discord message link
+    usage: /<commands>
+  meowmeow:
+    description: Gives player with permissions Creative.
+    usage: /<command>
+  meow:
+    description: Gives player with permissions Survival.
+    usage: /<command>
+  farmtime:
+    description: Spawns a specified amount of an animal or a mob
+    usage: /<command>
+  mcreload:
+    description: Reloads McStuff
+    usage: /<command>
+  mctp:
+      description: Teleport a Player to a place
+      usage: /<command>
+  mctpall:
+      description: Teleport all players in server to command sender
+      usage: /<command>
